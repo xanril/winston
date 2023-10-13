@@ -40,7 +40,7 @@ struct SubredditBaseIcon: View, Equatable {
           Color.red.opacity(0.1)
             .overlay(Image(systemName: "xmark.circle.fill").foregroundColor(.red))
         } else {
-          Image(.loader)
+          Image("loader")
             .resizable()
             .scaledToFill()
             .mask(Circle())

@@ -40,7 +40,7 @@ struct SubredditsStack: View {
             }
           } else {
             VStack(spacing: 24) {
-              Image(.winstonEyes)
+              Image("winstonEyes")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200)
