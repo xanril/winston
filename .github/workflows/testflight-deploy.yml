@@ -33,6 +33,7 @@ jobs:
           p12-base64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
           mobileprovision-base64: ${{ secrets.BUILD_PROVISION_PROFILE_BASE64 }}
           team-id: ${{ secrets.TEAM_ID }}
+          code-signing-identity: "iPhone Distribution"
           export-method: ad-hoc
           configuration: Release
           increment-build-number: testflight
